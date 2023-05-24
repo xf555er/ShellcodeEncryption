@@ -1,0 +1,11 @@
+﻿cl : 命令行  warning D9025: 正在重写“/sdl”(用“/GS-”)
+  encrypt_shellcode.cpp
+E:\Source Code\C_code\shellcode加密\aes加密\encrypt_shellcode.cpp(66,11): warning C4804: “<=”: 在操作中使用类型“bool”不安全
+E:\Source Code\C_code\shellcode加密\aes加密\encrypt_shellcode.cpp(69,30): warning C4018: “>=”: 有符号/无符号不匹配
+E:\Source Code\C_code\shellcode加密\aes加密\encrypt_shellcode.cpp(112,20): warning C4018: “<”: 有符号/无符号不匹配
+E:\Source Code\C_code\shellcode加密\aes加密\encrypt_shellcode.cpp(131,20): warning C4018: “<”: 有符号/无符号不匹配
+E:\Source Code\C_code\shellcode加密\aes加密\encrypt_shellcode.cpp(124,9): warning C4101: “processHandle”: 未引用的局部变量
+E:\Source Code\C_code\shellcode加密\aes加密\encrypt_shellcode.cpp(125,9): warning C4101: “remoteThread”: 未引用的局部变量
+E:\Source Code\C_code\shellcode加密\aes加密\encrypt_shellcode.cpp(126,8): warning C4101: “remoteBuffer”: 未引用的局部变量
+  aes加密.vcxproj -> E:\Source Code\C_code\shellcode加密\Debug\aes加密.exe
+E:\vcpkg\scripts\buildsystems\msbuild\vcpkg.targets(228,5): warning : [vcpkg] Failed to gather app local DLL dependencies, program may not run. Set VcpkgApplocalDeps to false in your project file to suppress this warning. PowerShell arguments: -ExecutionPolicy Bypass -noprofile -File "E:\vcpkg\scripts\buildsystems\msbuild\applocal.ps1" "E:\Source Code\C_code\shellcode加密\Debug\aes加密.exe" "E:\vcpkg\installed\x86-windows\debug\bin" "Debug\aes加密.tlog\aes加密.write.1u.tlog" "Debug\vcpkg.applocal.log"

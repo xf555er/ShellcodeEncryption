@@ -1,0 +1,13 @@
+﻿cl : 命令行  warning D9025: 正在重写“/sdl”(用“/GS-”)
+  Shellcode_AesEncrypt.cpp
+E:\Source Code\C_code\shellcode加密\aes加密\Shellcode_AesEncrypt.cpp(50,12): warning C4244: “参数”: 从“time_t”转换到“unsigned int”，可能丢失数据
+E:\Source Code\C_code\shellcode加密\aes加密\Shellcode_AesEncrypt.cpp(62,9): warning C4477: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 1 拥有了类型“size_t”
+E:\Source Code\C_code\shellcode加密\aes加密\Shellcode_AesEncrypt.cpp(62,9): message : 请考虑在格式字符串中使用“%zd”
+E:\Source Code\C_code\shellcode加密\aes加密\Shellcode_AesEncrypt.cpp(59,7): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  正在生成代码
+  1 of 143 functions ( 0.7%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
+  已完成代码的生成
+  aes加密.vcxproj -> E:\Source Code\C_code\shellcode加密\x64\Release\aes加密.exe
+E:\vcpkg\scripts\buildsystems\msbuild\vcpkg.targets(228,5): warning : [vcpkg] Failed to gather app local DLL dependencies, program may not run. Set VcpkgApplocalDeps to false in your project file to suppress this warning. PowerShell arguments: -ExecutionPolicy Bypass -noprofile -File "E:\vcpkg\scripts\buildsystems\msbuild\applocal.ps1" "E:\Source Code\C_code\shellcode加密\x64\Release\aes加密.exe" "E:\vcpkg\installed\x64-windows\bin" "x64\Release\aes加密.tlog\aes加密.write.1u.tlog" "x64\Release\vcpkg.applocal.log"

@@ -1,0 +1,30 @@
+﻿cl : 命令行  warning D9025: 正在重写“/sdl”(用“/GS-”)
+  AES.cpp
+E:\Source Code\C_code\shellcode加密\aes加密\AES.cpp(1058,45): warning C4018: “<”: 有符号/无符号不匹配
+E:\Source Code\C_code\shellcode加密\aes加密\AES.cpp(1069,45): warning C4018: “<”: 有符号/无符号不匹配
+E:\Source Code\C_code\shellcode加密\aes加密\AES.cpp(1080,45): warning C4018: “<”: 有符号/无符号不匹配
+E:\Source Code\C_code\shellcode加密\aes加密\AES.cpp(1101,45): warning C4018: “<”: 有符号/无符号不匹配
+E:\Source Code\C_code\shellcode加密\aes加密\AES.cpp(1112,45): warning C4018: “<”: 有符号/无符号不匹配
+E:\Source Code\C_code\shellcode加密\aes加密\AES.cpp(1124,45): warning C4018: “<”: 有符号/无符号不匹配
+  Base64.cpp
+E:\Source Code\C_code\shellcode加密\aes加密\Base64.cpp(69,57): warning C4267: “=”: 从“size_t”转换到“unsigned char”，可能丢失数据
+E:\Source Code\C_code\shellcode加密\aes加密\Base64.cpp(86,56): warning C4267: “=”: 从“size_t”转换到“unsigned char”，可能丢失数据
+  Shellcode_AesDecrypt.cpp
+E:\Source Code\C_code\shellcode加密\aes加密\Shellcode_AesDecrypt.cpp(15,1): warning C4326: “main”的返回类型应为“int”而非“void”
+E:\Source Code\C_code\shellcode加密\aes加密\Shellcode_AesDecrypt.cpp(25,20): warning C4018: “<”: 有符号/无符号不匹配
+E:\Source Code\C_code\shellcode加密\aes加密\Shellcode_AesDecrypt.cpp(33,13): warning C4477: “sscanf”: 格式字符串“%02x”需要类型“unsigned int *”的参数，但可变参数 1 拥有了类型“unsigned char *”
+E:\Source Code\C_code\shellcode加密\aes加密\Shellcode_AesDecrypt.cpp(33,13): message : 请考虑在格式字符串中使用“%hhx”
+E:\Source Code\C_code\shellcode加密\aes加密\Shellcode_AesDecrypt.cpp(40,20): warning C4018: “<”: 有符号/无符号不匹配
+E:\Source Code\C_code\shellcode加密\aes加密\lazy_importer.hpp(534,48): error C2664: “LPVOID (LPVOID,SIZE_T,DWORD,DWORD)”: 无法将参数 1 从“_Ty”转换为“LPVOID”
+          with
+          [
+              _Ty=int
+          ]
+E:\Source Code\C_code\shellcode加密\aes加密\lazy_importer.hpp(534,48): message : 从整型类型转换为指针类型需要 reinterpret_cast、C 样式转换或带圆括号的函数样式强制转换
+E:\Source Code\C_code\shellcode加密\aes加密\Shellcode_AesDecrypt.cpp(55,98): message : 查看对正在编译的函数 模板 实例化“decltype(auto) li::detail::lazy_function<52974849,LPVOID (__stdcall *)(LPVOID,SIZE_T,DWORD,DWORD)>::operator ()<int,unsigned int,int,int>(int &&,unsigned int &&,int &&,int &&) const”的引用
+E:\Source Code\C_code\shellcode加密\aes加密\lazy_importer.hpp(532): error C3169: “decltype(auto)”: 无法从“LPVOID”推断“auto”的类型
+E:\Source Code\C_code\shellcode加密\aes加密\Shellcode_AesDecrypt.cpp(55,19): error C3779: “li::detail::lazy_function<52974849,LPVOID (__stdcall *)(LPVOID,SIZE_T,DWORD,DWORD)>::operator ()”: 要使用将会返回“decltype(auto)”的函数，必须首先定义此函数
+E:\Source Code\C_code\shellcode加密\aes加密\lazy_importer.hpp(531,54): message : 参见“li::detail::lazy_function<52974849,LPVOID (__stdcall *)(LPVOID,SIZE_T,DWORD,DWORD)>::operator ()”的声明
+  lazy_importer.cpp
+  Shellcode_AesEncrypt.cpp
+E:\Source Code\C_code\shellcode加密\aes加密\Shellcode_AesEncrypt.cpp(51,12): warning C4244: “参数”: 从“time_t”转换到“unsigned int”，可能丢失数据

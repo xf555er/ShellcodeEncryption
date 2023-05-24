@@ -1,0 +1,4 @@
+﻿  xor加密.cpp
+E:\Source Code\C_code\shellcode加密\xor加密\xor加密.cpp(16,32): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+  xor加密.vcxproj -> E:\Source Code\C_code\shellcode加密\x64\Debug\xor加密.exe
+E:\vcpkg\scripts\buildsystems\msbuild\vcpkg.targets(228,5): warning : [vcpkg] Failed to gather app local DLL dependencies, program may not run. Set VcpkgApplocalDeps to false in your project file to suppress this warning. PowerShell arguments: -ExecutionPolicy Bypass -noprofile -File "E:\vcpkg\scripts\buildsystems\msbuild\applocal.ps1" "E:\Source Code\C_code\shellcode加密\x64\Debug\xor加密.exe" "E:\vcpkg\installed\x64-windows\debug\bin" "x64\Debug\xor加密.tlog\xor加密.write.1u.tlog" "x64\Debug\vcpkg.applocal.log"

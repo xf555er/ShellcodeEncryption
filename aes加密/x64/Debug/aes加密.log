@@ -1,0 +1,7 @@
+﻿cl : 命令行  warning D9025: 正在重写“/sdl”(用“/GS-”)
+  lazy_importer.cpp
+  Shellcode_AesEncrypt.cpp
+E:\Source Code\C_code\shellcode加密\aes加密\Shellcode_AesEncrypt.cpp(58,12): warning C4244: “参数”: 从“time_t”转换到“unsigned int”，可能丢失数据
+  正在生成代码...
+  aes加密.vcxproj -> E:\Source Code\C_code\shellcode加密\x64\Debug\aes加密.exe
+E:\vcpkg\scripts\buildsystems\msbuild\vcpkg.targets(228,5): warning : [vcpkg] Failed to gather app local DLL dependencies, program may not run. Set VcpkgApplocalDeps to false in your project file to suppress this warning. PowerShell arguments: -ExecutionPolicy Bypass -noprofile -File "E:\vcpkg\scripts\buildsystems\msbuild\applocal.ps1" "E:\Source Code\C_code\shellcode加密\x64\Debug\aes加密.exe" "E:\vcpkg\installed\x64-windows\debug\bin" "x64\Debug\aes加密.tlog\aes加密.write.1u.tlog" "x64\Debug\vcpkg.applocal.log"

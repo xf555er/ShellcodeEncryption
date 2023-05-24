@@ -1,0 +1,21 @@
+﻿  applink.c
+E:\Source Code\C_code\shellcode加密\rsa加密\applink.c(121,47): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+E:\Source Code\C_code\shellcode加密\rsa加密\applink.c(129,46): warning C4996: '_open': This function or variable may be unsafe. Consider using _sopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  main.cpp
+E:\Source Code\C_code\shellcode加密\rsa加密\main.cpp(14,14): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+E:\Source Code\C_code\shellcode加密\rsa加密\main.cpp(15,9): warning C4996: 'PEM_write_RSAPublicKey': Since OpenSSL 3.0
+E:\Source Code\C_code\shellcode加密\rsa加密\main.cpp(18,14): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+E:\Source Code\C_code\shellcode加密\rsa加密\main.cpp(19,9): warning C4996: 'PEM_write_RSAPrivateKey': Since OpenSSL 3.0
+E:\Source Code\C_code\shellcode加密\rsa加密\main.cpp(53,16): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+E:\Source Code\C_code\shellcode加密\rsa加密\main.cpp(59,23): warning C4996: 'PEM_read_RSAPrivateKey': Since OpenSSL 3.0
+E:\Source Code\C_code\shellcode加密\rsa加密\main.cpp(67,24): warning C4996: 'RSA_private_decrypt': Since OpenSSL 3.0
+E:\Source Code\C_code\shellcode加密\rsa加密\main.cpp(68,5): warning C4996: 'RSA_free': Since OpenSSL 3.0
+E:\Source Code\C_code\shellcode加密\rsa加密\main.cpp(105,47): error C2065: “shellcode”: 未声明的标识符
+E:\Source Code\C_code\shellcode加密\rsa加密\main.cpp(105,89): error C2065: “shellcode”: 未声明的标识符
+E:\Source Code\C_code\shellcode加密\rsa加密\main.cpp(105,119): error C2065: “keypair”: 未声明的标识符
+E:\Source Code\C_code\shellcode加密\rsa加密\main.cpp(105,28): error C2660: “RSA_public_encrypt”: 函数不接受 4 个参数
+E:\vcpkg\installed\x64-windows\include\openssl\rsa.h(288,5): message : 参见“RSA_public_encrypt”的声明
+E:\Source Code\C_code\shellcode加密\rsa加密\main.cpp(105,28): message : 尝试匹配参数列表“()”时
+E:\Source Code\C_code\shellcode加密\rsa加密\main.cpp(114,88): error C2065: “keypair”: 未声明的标识符
+E:\Source Code\C_code\shellcode加密\rsa加密\main.cpp(130,14): error C2065: “keypair”: 未声明的标识符
+E:\Source Code\C_code\shellcode加密\rsa加密\main.cpp(131,13): error C2065: “bn”: 未声明的标识符

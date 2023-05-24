@@ -1,0 +1,15 @@
+﻿  main.cpp
+E:\Source Code\C_code\shellcode加密\rsa加密\main.cpp(14,14): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+E:\Source Code\C_code\shellcode加密\rsa加密\main.cpp(15,9): warning C4996: 'PEM_write_RSAPublicKey': Since OpenSSL 3.0
+E:\Source Code\C_code\shellcode加密\rsa加密\main.cpp(18,14): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+E:\Source Code\C_code\shellcode加密\rsa加密\main.cpp(19,9): warning C4996: 'PEM_write_RSAPrivateKey': Since OpenSSL 3.0
+E:\Source Code\C_code\shellcode加密\rsa加密\main.cpp(80,130): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+E:\Source Code\C_code\shellcode加密\rsa加密\main.cpp(29,20): warning C4996: 'RSA_new': Since OpenSSL 3.0
+E:\Source Code\C_code\shellcode加密\rsa加密\main.cpp(33,5): warning C4996: 'RSA_generate_key_ex': Since OpenSSL 3.0
+E:\Source Code\C_code\shellcode加密\rsa加密\main.cpp(80,28): warning C4996: 'RSA_public_encrypt': Since OpenSSL 3.0
+E:\Source Code\C_code\shellcode加密\rsa加密\main.cpp(88,28): warning C4996: 'RSA_private_decrypt': Since OpenSSL 3.0
+E:\Source Code\C_code\shellcode加密\rsa加密\main.cpp(97,5): warning C4996: 'RSA_free': Since OpenSSL 3.0
+    正在创建库 E:\Source Code\C_code\shellcode加密\x64\Debug\rsa加密.lib 和对象 E:\Source Code\C_code\shellcode加密\x64\Debug\rsa加密.exp
+LINK : warning LNK4232: 名称 rsa加密.exe 包含非 ASCII 字符，在具有除 936 以外的 ANSI 代码页的系统上可能不能加载 DLL
+  rsa加密.vcxproj -> E:\Source Code\C_code\shellcode加密\x64\Debug\rsa加密.exe
+E:\vcpkg\scripts\buildsystems\msbuild\vcpkg.targets(228,5): warning : [vcpkg] Failed to gather app local DLL dependencies, program may not run. Set VcpkgApplocalDeps to false in your project file to suppress this warning. PowerShell arguments: -ExecutionPolicy Bypass -noprofile -File "E:\vcpkg\scripts\buildsystems\msbuild\applocal.ps1" "E:\Source Code\C_code\shellcode加密\x64\Debug\rsa加密.exe" "E:\vcpkg\installed\x64-windows\debug\bin" "x64\Debug\rsa加密.tlog\rsa加密.write.1u.tlog" "x64\Debug\vcpkg.applocal.log"

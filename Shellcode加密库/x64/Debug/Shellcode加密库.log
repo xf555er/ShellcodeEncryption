@@ -1,0 +1,14 @@
+﻿  AES.cpp
+  Base64.cpp
+E:\Source Code\C_code\shellcode加密\Shellcode加密库\Base64.cpp(58,36): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+E:\Source Code\C_code\shellcode加密\Shellcode加密库\Base64.cpp(69,57): warning C4267: “=”: 从“size_t”转换到“unsigned char”，可能丢失数据
+E:\Source Code\C_code\shellcode加密\Shellcode加密库\Base64.cpp(86,56): warning C4267: “=”: 从“size_t”转换到“unsigned char”，可能丢失数据
+  Shellcode加密库.cpp
+E:\Source Code\C_code\shellcode加密\Shellcode加密库\Shellcode加密库.cpp(9,41): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+E:\Source Code\C_code\shellcode加密\Shellcode加密库\Shellcode加密库.cpp(17,29): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+E:\Source Code\C_code\shellcode加密\Shellcode加密库\Shellcode加密库.cpp(13,2): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+E:\Source Code\C_code\shellcode加密\Shellcode加密库\Shellcode加密库.cpp(56,11): warning C4804: “<=”: 在操作中使用类型“bool”不安全
+E:\Source Code\C_code\shellcode加密\Shellcode加密库\Shellcode加密库.cpp(59,3): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+  正在生成代码...
+  Shellcode加密库.vcxproj -> E:\Source Code\C_code\shellcode加密\x64\Debug\Shellcode加密库.lib
+E:\vcpkg\scripts\buildsystems\msbuild\vcpkg.targets(228,5): warning : [vcpkg] Failed to gather app local DLL dependencies, program may not run. Set VcpkgApplocalDeps to false in your project file to suppress this warning. PowerShell arguments: -ExecutionPolicy Bypass -noprofile -File "E:\vcpkg\scripts\buildsystems\msbuild\applocal.ps1" "E:\Source Code\C_code\shellcode加密\x64\Debug\Shellcode加密库.lib" "E:\vcpkg\installed\x64-windows\debug\bin" "x64\Debug\Shellcode加密库.tlog\Shellcode加密库.write.1u.tlog" "x64\Debug\vcpkg.applocal.log"
